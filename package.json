@@ -1,0 +1,17 @@
+{
+  "name": "sum-it-up-scraper",
+  "version": "1.0.0",
+  "description": "Explore web scraping and outputs for Sum It Up project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node ./index.js"
+  },
+  "author": "maia sason",
+  "license": "ISC",
+  "dependencies": {
+    "@mozilla/readability": "^0.4.2",
+    "axios": "^1.2.3",
+    "jsdom": "^21.0.0"
+  }
+}
